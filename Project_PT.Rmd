@@ -115,7 +115,7 @@ In order to answer the second research question, we added the habitat informatio
 
 ## Results
 
-In a first step, we explored the calculated step lengths. The mean step length of all animals was 39 meters, the median seven meters (see Figure 2). 
+In a first step, we explored the calculated step lengths. The mean step length of all animals was 39 meters, the median seven meters (see Figure 3). 
 ```{r, warning = FALSE, message = FALSE, echo=FALSE, fig.cap = "*Figure 3: Distribution of the distance of consecutive points (steplength) of all monitored wild boar.*"}
 wildschwein_BE <- wildschwein_BE %>%
   group_by(TierID) %>%
@@ -261,10 +261,14 @@ The results were slightly undervalued in comperes to the literature research, wh
 We could also try to see if their resting behavior change in between seasons, for example if they res longer in the winter. It could also be interesting to see if the hypothesis that resting behavior is mostly after foraging. 
 
 ## Literature
-Hance, D.J., Moriarty, K.M., Hollen, B.A. et al. (2021). Identifying resting locations of a small elusive forest carnivore using a two-stage model accounting for GPS measurement error and hidden behavioral states. Mov Ecol 9, 17 . https://doi.org/10.1186/s40462-021-00256-8
-Laube, P. & Purves, R.S. (2011). How fast is a cow? Cross-scale analysis of movement data. Transactions in GIS, 15(3): 401-418. https://doi.org/10.1111/j.1467-9671.2011.01256.x
 Erdtmann, D., & Keuling, O. (2020). Behavioural patterns of free roaming wild boar in a spatiotemporal context. PeerJ, 8, e10409. https://doi.org/10.7717/peerj.10409
+
+Hance, D.J., Moriarty, K.M., Hollen, B.A. et al. (2021). Identifying resting locations of a small elusive forest carnivore using a two-stage model accounting for GPS measurement error and hidden behavioral states. Mov Ecol 9, 17 . https://doi.org/10.1186/s40462-021-00256-8
+
+Laube, P. & Purves, R.S. (2011). How fast is a cow? Cross-scale analysis of movement data. Transactions in GIS, 15(3): 401-418. https://doi.org/10.1111/j.1467-9671.2011.01256.x
+
 Thurfjell, H. (n.d.). Spatial Behaviour of Wild Boar. 49.
-Wild boar – WLS. (n.d.). Retrieved 29 June 2022, from https://wls.ch/wild-boar/?lang=en
+
 Patterson TA, Basson M, Bravington MV, Gunn JS. Classifying movement behaviour in relation to environmental conditions using hidden Markov models. J Anim Ecol. 2009;78(6):1113–23. https://doi.org/10.1111/j.1365-2 656.2009.01583.x.
 
+Wild boar – WLS. (n.d.). Retrieved 29 June 2022, from https://wls.ch/wild-boar/?lang=en
