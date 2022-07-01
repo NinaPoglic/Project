@@ -10,7 +10,7 @@ always_allow_html: yes
 ---
 
 #### Packages and loading data
-```{r, warning = FALSE, message = FALSE}
+```{r, warning = FALSE, message = FALSE, echo = FALSE}
 library(ComputationalMovementAnalysisData)
 library(readr)        # to import tabular data (e.g. csv)
 library(dplyr)        # to manipulate (tabular) data
