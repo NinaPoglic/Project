@@ -23,7 +23,7 @@ library(raster)
 library(forcats)
 library(knitr)
 
-
+load(file='wildschwein_BE.rda')
 wildschwein_BE <- st_as_sf(wildschwein_BE, coords = c("E", "N"), crs = 2056, remove = FALSE)
 crop_fanel <- read_sf("Feldaufnahmen_Fanel.gpkg") 				#Reading in habitat data
 wildschwein_BE <- 
